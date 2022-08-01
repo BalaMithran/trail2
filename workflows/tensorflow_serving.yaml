@@ -4,7 +4,7 @@ metadata:
   name: tensorflow-pre-tained-serving
   annotations:
     scenarios.ai.sap.com/description: "Tensorlfow text classification"
-    scenarios.ai.sap.com/name: "movie-review-clf"
+    scenarios.ai.sap.com/name: "tensorflow-pre-trained-scenario"
     executables.ai.sap.com/description: "Tensorlfow GPU Serving executable"
     executables.ai.sap.com/name: "serve-exectuable"
   labels:
