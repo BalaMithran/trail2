@@ -26,6 +26,7 @@ spec:
         containers:
         - name: kfserving-container
           image: "docker.io/mithranbala123/movie-review-clf-serve:1.0.0"
+          ports:
             - containerPort: 9001
               protocol: TCP
           env:
